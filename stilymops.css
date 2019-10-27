@@ -1,0 +1,94 @@
+
+body {
+    font-family: "Comic Sans MS", sans-serif;
+    background: #fff;
+}
+
+.wrap {
+    margin: auto;
+    width: 70%;
+}
+
+.header {
+    padding: 1.3em 0;
+}
+
+.logo {
+    float: left;
+}
+
+.logo a {
+    display: block
+}
+
+.nav {
+    float: right;
+    margin-top: 0.82em;
+    display: inline-block;
+}
+
+.nav > ul > li {
+    display: inline-block;
+}
+
+.nav > ul > li.active a {
+    background: #1b6d85;
+    color: #ffffff;
+}
+
+.nav > ul > li > a {
+    display: block;
+    font-family: "Comic Sans MS", sans-serif;
+    font-size: 1.1em;
+    text-transform: uppercase;
+    padding: 0.5em 1em;
+    color: #444444;
+    transition: 0.9s;
+}
+.nav > ul > li > a:hover {
+    color: red;
+    background: #bce8f1;
+}
+
+section.mops {
+    background: url("mops.jpg") no-repeat;
+    background-size: 100% 100%;
+    height: 500px;
+    padding: 10%;
+    margin-top: 2em;
+    position: relative;
+}
+
+.text {
+    color: #ffffff;
+
+}
+
+.text > h2 {
+    font-size:2.6em;
+    font-weight: 600;
+    text-align: center ;
+    position: absolute; top: 0; left: 0; bottom: 0; right: 0; margin: auto;
+    /*margin-top: -3em;*/
+}
+.text > h2 > span {
+    font-size: 1.5em;
+    font-weight: 200;
+}
+.text > p {
+font-size: 1.2em;
+    text-align: center;
+    position: absolute; top: 20%;left: 15%; bottom: 0; right: 15%; margin: auto;
+}
+
+.da-butt {
+    position: absolute; top: 45%;left: 60%; bottom: 50%; right: 30%; margin: auto;
+    background-color: #dca7a7;
+    display: block;
+    font-size: 1em;
+    text-decoration: none;
+    color: #ffffff;
+}
+.butt-img {
+
+}
